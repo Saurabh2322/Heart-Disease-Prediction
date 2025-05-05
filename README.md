@@ -2,7 +2,7 @@
 
 ### Overview
 
-A simple web application which uses Machine Learning algorithm to predict the heart condition of a person by providing some inputs about the person health like age, gender, blood pressure, cholesterol level etc built using `Flask` and deployed on `Heroku`.
+A simple web application which uses Machine Learning algorithm to predict the heart condition of a person by providing some inputs about the person health like age, gender, blood pressure, cholesterol level etc built using `Flask` and deployed on `Render`.
 
 ### Motivation 
 
@@ -13,7 +13,7 @@ As being a Data and ML enthusiast I have tried many different projects related t
  This Project is mainly divided into two parts:
  
  1. Exploring the dataset and traning the model using `Sklearn`.
- 2. Building and hosting a `flask` web app on `Heroku`.
+ 2. Building and hosting a `flask` web app on `Render`.
 
 **About the repository Structure :**
 
@@ -21,4 +21,3 @@ As being a Data and ML enthusiast I have tried many different projects related t
 - `prediction.py` contains code to build and train a Machine learning model.
 - *templates* folder contains two files `main.html` and `result.html` which describe the structure of the app and the way this web application behaves. These files are connected with Python via Flask framework.  
 - *static* folder contains file `style.css` which adds some styling and enhance the look of the application. 
-
